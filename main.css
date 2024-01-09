@@ -1,0 +1,41 @@
+body{
+    background-color: #000;
+    height: 100vh;
+    width: 100vw;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#winner-disp{
+    color: #fff;
+    height: 43px;
+    margin-top: -23;
+}
+
+#grid{
+    background: #fff;
+    color: #000;
+    width: 600px;
+    height: 600px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+.box{
+    text-align: center;
+    font-size: 135px;
+    border: 1px solid #000;
+}
+#reset-btn{
+    width: 598px;
+    height: 43px;
+    background: #530e0e;
+    color: #fff;
+    font-size: 25px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: none;
+}
